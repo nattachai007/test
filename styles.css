@@ -1,0 +1,73 @@
+body{
+    font-family: sans-serif;
+}
+.content{
+    border: 3px solid salmon;
+    width: 1024px; 
+    margin: auto;
+}
+ 
+.flextop{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexitem1{
+    position: relative;
+    margin-top: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avatar{
+    background-color: rebeccapurple ;
+    background-size: auto;
+    overflow: auto;
+    width: 128px ; 
+    height: 128px; 
+    border-radius: 50%;
+}
+
+.noti{
+    position: absolute;
+    display: grid;
+    background-color: tomato ;
+    width: 3rem ; 
+    height: 3rem; 
+    border-radius: 9999px;
+    right: 0;
+    bottom: 0;
+    place-items: center;
+    color: aliceblue;
+}
+
+.flexitem2{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.gallery{
+    display: grid;
+    padding: 50px;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4, 300px);
+    gap: 10px;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery-item{
+    background-color: beige;
+    width: 100%;
+    height: 100%;
+
+}
+.on-hover {
+    text-decoration: none;
+    color: pink;
+}
+.on-hover:hover {
+    text-decoration: underline;
+    color: blue;
+}
